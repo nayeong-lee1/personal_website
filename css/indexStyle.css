@@ -1,0 +1,150 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+ 	font-family: 'Gothic A1', sans-serif;
+ 	color: #565656;
+}
+
+body {
+	background-color: #d7cec7;
+}
+
+#navbar {
+	height: 80px;
+}
+
+.main-nav {
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+.main-nav li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.main-nav li a {
+	text-decoration: none;
+	padding: 10px 20px;
+}
+
+.active a {
+	border-top: 3px solid #76323f;
+	border-bottom: 3px solid #76323f;
+}
+.main-nav li a:hover {
+	border-top: 3px solid #f4f4f4;
+	border-bottom: 3px solid #f4f4f4;
+}
+
+.motto {
+	height: 60vh;
+	margin-top: 300px;
+	margin-left: 200px;
+}
+
+.motto h1 {
+
+	font-size: 60px;
+	line-height: 150%;
+}
+
+.aboutMe {
+	display: flex;
+	flex-direction: row;
+	height: 70vh;
+	width: 100%;
+	background-color: #f4f4f4;
+	margin-bottom: 10vh;
+}
+
+.accomplishment p {
+	padding: 150px 200px;
+}
+
+.profilePic {
+	width: 300px;
+	height: 400px;
+	margin-right: 200px;
+	margin-top: 100px;
+	border-radius: 20px;
+	box-shadow: 10px 10px #76323f;
+}
+
+.activities {
+	height: 90vh;
+	display: flex;
+	flex-direction: row;
+}
+
+.actTitle { 
+	width: 200px;
+	height: 100px;
+	padding: 25px;
+	margin: 250px 80px 100px 200px;
+	border-top: 3px solid #f4f4f4;
+	border-bottom: 3px solid #f4f4f4;
+ }
+ 
+ .actTitleLink {
+	 text-decoration: none;
+ }
+
+.galleries {
+	height: 50vh;
+	margin-top: 100px;
+}
+.gallery {
+	margin: 30px;
+	border: 3px solid #f4f4f4;
+	border-radius: 20px;
+	width: 300px;
+	height: 400px;
+	float: left;
+	transition: width 1s, height 1s; 
+}
+
+.gallery:hover {
+	width: 350px;
+	height: 450px;
+}
+
+.gallery img {
+	width: 100%;
+	height: 70%;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	border-bottom: 3px solid #f4f4f4;
+}
+
+.gallery .desc {
+	padding: 15px;
+	text-align: center;
+}
+
+
+.contactFooter {
+	border-top: 3px solid #76323f;
+	padding-top: 40px;
+	padding-bottom: 50px;
+}
+
+.contactList {
+	list-style-type: none;
+	text-align: center;
+}
+
+.contactList li {
+	display: inline-block;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+
+
+
+
+
+

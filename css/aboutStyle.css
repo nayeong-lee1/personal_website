@@ -1,0 +1,119 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+ 	font-family: 'Gothic A1', sans-serif;
+     color: #565656;
+  
+}
+
+body {
+	background-color: #d7cec7;
+}
+/*-----Menu Bar-------*/
+#navbar {
+	height: 80px;
+}
+
+.main-nav {
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+.main-nav li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.main-nav li a {
+	text-decoration: none;
+	padding: 10px 20px;
+}
+
+.active a {
+	border-top: 3px solid #76323f;
+	border-bottom: 3px solid #76323f;
+}
+.main-nav li a:hover {
+	border-top: 3px solid #f4f4f4;
+	border-bottom: 3px solid #f4f4f4;
+}
+
+/*-------------Contents------------------*/
+.grid-container {
+    margin: 10em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5em;
+    grid-row-gap: 17em;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.about1Img {
+    grid-column: 1/2;
+
+}
+
+.about1Pic {
+    width: 500px;
+    border-radius: 20px;
+}
+
+.about1Des {
+    grid-column: 2/4;
+}
+
+.about1H1 {
+    width: 20em;
+}
+
+.about2Des {
+    grid-column: 1/3;
+}
+
+.about2Img {
+    grid-column: 3/4;
+}
+
+.about2Pic {
+
+    width: 400px;
+    border-radius: 20px;
+}
+
+.about3Img {
+    grid-column: 1/2;
+}
+
+.about3Pic {
+    width: 400px;
+    border-radius: 20px;
+} 
+
+.about3Des {
+    grid-column: 2/4;
+}
+
+
+
+/*------Footer---------*/
+
+.contactFooter {
+	border-top: 3px solid #76323f;
+	padding-top: 40px;
+	padding-bottom: 50px;
+}
+
+.contactList {
+	list-style-type: none;
+	text-align: center;
+}
+
+.contactList li {
+	display: inline-block;
+	margin-right: 20px;
+	margin-left: 20px;
+}
