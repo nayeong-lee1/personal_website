@@ -10,6 +10,7 @@ body {
 	background-color: #d7cec7;
 }
 
+
 #navbar {
 	height: 80px;
 }
@@ -46,7 +47,6 @@ body {
 }
 
 .motto h1 {
-
 	font-size: 60px;
 	line-height: 150%;
 }
@@ -64,13 +64,17 @@ body {
 	padding: 150px 200px;
 }
 
-.profilePic {
+#profilePic {
 	width: 300px;
 	height: 400px;
 	margin-right: 200px;
 	margin-top: 100px;
 	border-radius: 20px;
 	box-shadow: 10px 10px #76323f;
+}
+
+#mobileProPic {
+	display: none;
 }
 
 .activities {
@@ -143,8 +147,195 @@ body {
 }
 
 
+/*mobile screen that is less than 500px*/
+@media (max-width: 500px) {
+
+	#container {
+		display: grid;
+		grid-template-rows: 0.5fr 0.5fr 2fr 3.5fr 0.5fr;
+	}
+	
+	#navbar {
+		width: 100%;
+		margin-bottom: 0; 
+
+	}
+	
+	.main-nav {
+		float: none;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		background-color: #f1f1f1;
+	}
+	
+	.main-nav li {
+		display: inline-block;
+		padding-top: 0;
+		padding-bottom: 0;
+		margin-right: 0;
+	}
+
+	
+	.main-nav li a {
+		text-decoration: none;
+		display: block;
+
+	}
+	
+	.active a {
+		background-color: #76323f;
+		color: #f1f1f1;
+		border-top: 0;
+		border-bottom: 0;
+	}
+
+	.main-nav li a:hover {
+		border-top: 0;
+		border-bottom: 0;
+	}
+	
+	.motto {
+		height: 40vh;
+		width: 100vw;
+		margin-top: 0;
+		margin-left: 0;
+
+	}
+	
+	#mottoH1 {
+		margin-top: 5%;
+		margin-left: 10%;
+		margin-bottom: 5%;
+	}
+
+	#mottoH1 h1 {
+		font-size: 35px;
+	}
+
+	
+	
+	.aboutMe {
+		display: flex;
+		flex-direction: column;
+		height: 100vh;
+		width: 100vw;
+		background-color: #f4f4f4;
+		margin-bottom: 0;
+	}
+
+	
+	.accomplishment p {
+		padding:15px;
+	}
+	
+	#profilePic {
+		display: none;
+	}
+	
+	.mobliePP {
+		width: 100vw;
+		height: 100px;
+		border: 1px solid black;
+	}
+	#mobileProPic {
+		width: 400px;
+		height: 100px;
+
+	}
+
+	.activities {
+		height: auto;
+		width: 100vw;
+		display: flex;
+		flex-direction: column;
+		border: 1px solid black;
+	}
+	
+	.actTitle { 
+		font-size: 15px;
+		text-align: center;
+		width: 100vw;
+		height: 100px;
+		padding: 15px;
+		margin: 0;
+		margin-top: 10px;
+		border-top: none;
+		border-bottom: none;
+
+	 }
+	 
+	 .actTitleLink {
+		 display: inline-block;
+		 text-decoration: none;
+		 padding: 20px 40px 10px 40px;
+		 border-top: 3px solid #f4f4f4;
+		 border-bottom: 3px solid #f4f4f4;
+	 }
+	
+	.galleries {
+		width: 100vw;
+		height: 50px;
+		margin-top: 100px;
+		text-align: center;
+	}
+	
+	.gallery {
+		margin: 0;
+		border: 3px solid #f4f4f4;
+		border-radius: 0px;
+		width: 400px;
+		height: 400px;
+		float: none;
+		transition: none; 
+		display: inline-block;
+		margin-bottom: 1em;
+	}
+	
+	.gallery:hover {
+		width: 400px;
+		height: 400px;
+	}
+	
+	.gallery img {
+		width: 100%;
+		height: 70%;
+		border-top-right-radius: 0;
+		border-top-left-radius: 0;
+		border-bottom: 3px solid #f4f4f4;
+	}
+	
+	.gallery .desc {
+		padding: 15px;
+		text-align: center;
+	}
+	
+	
+	.contactFooter {
+		background-color: #76323F;
+		padding-top: 40px;
+		padding-bottom: 50px; 
+	}
+	
+	.contactList {
+		list-style-type: none;
+		text-align: center;
+		font-size: 10px;
+	}
+	
+	.contactList li {
+		display: inline-block;
+		margin-right: 10px;
+		margin-left: 0;
+		color: #f1f1f1;
+	}
+}
 
 
 
+/*table scrren that is less than 1500px*/
+@media only screen and (max-width: 1500px) {
 
+}
 
