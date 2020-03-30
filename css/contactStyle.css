@@ -107,7 +107,7 @@ body {
 
 /*-------------Footer----------*/
 .contactFooter {
-	border-top: 3px solid #76323f;
+	background-color: #76323F;
 	padding-top: 40px;
 	padding-bottom: 50px;
 }
@@ -121,4 +121,5 @@ body {
 	display: inline-block;
 	margin-right: 20px;
 	margin-left: 20px;
+	color: #f1f1f1;
 }

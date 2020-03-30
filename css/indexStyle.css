@@ -130,7 +130,7 @@ body {
 
 
 .contactFooter {
-	border-top: 3px solid #76323f;
+	background-color: #76323F;
 	padding-top: 40px;
 	padding-bottom: 50px;
 }
@@ -144,11 +144,12 @@ body {
 	display: inline-block;
 	margin-right: 20px;
 	margin-left: 20px;
+	color: #f1f1f1;
 }
 
 
 /*mobile screen that is less than 500px*/
-@media (max-width: 500px) {
+@media (max-width: 700px) {
 
 	#container {
 		display: grid;
@@ -250,7 +251,7 @@ body {
 		width: 100vw;
 		display: flex;
 		flex-direction: column;
-		border: 1px solid black;
+
 	}
 	
 	.actTitle { 
